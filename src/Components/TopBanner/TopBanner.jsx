@@ -5,14 +5,14 @@ export default function TopBanner() {
       <div className="container">
         <div className="grid md:grid-cols-2 items-center w-10/12 mx-auto">
           <img
-            className="md:order-2 object-cover ml-auto animate-updown"
+            className="md:order-2 object-cover ml-auto   animate-upDownAnimation "
             src={img}
             width="500px"
             height="500px"
             alt="Banner"
           />
           <div>
-            <h1 className="text-4xl lg:text-[56px] font-bold leading-[1.1] mb-8">
+            <h1 className=" ani text-4xl lg:text-[56px] font-bold leading-[1.1] mb-8">
               The Future of Learning starts with students at the center
             </h1>
             <a className="px-5 py-2.5 bg-[#038C61] rounded-[44px]" href="#">
